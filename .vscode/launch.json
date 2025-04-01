@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open exemplo3.html",
-            "file": "c:\\Users\\Lab 01\\Desktop\\aulahtml\\aula4\\exemplo3.html"
+            "name": "Open ex.html",
+            "file": "c:\\Users\\Lab 01\\Desktop\\aulahtml\\aula4\\ex.html"
         }
     ]
 }
