@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1
+        {
+            color: white;
+            background-color: red;
+            text-align: center;
+        }
+        table, th, td
+        {
+            border : 1px  solid red;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        th
+        {
+            color: rgb(249, 249, 249);
+            background-color: rgb(186, 12, 12);
+        }
+            
+    </style>
+</head>
+
+
+
+<body>
+    <h1>Exercicio</h1>
+    <h3>Exercicio colspan</h3>
+    <table>
+        <tr>
+            <th>Dia da Semana</th>
+        <Th> turma</th>
+        <th>aula 1</th>
+        <th>aula 2</th>
+        <th>aula 3</th>
+        <th>aual 4</th>
+        <th>aula 5</th>
+        <th>aula 6</th>
+        </tr>
+        <tr>
+
+            <td>Segunda</td>
+            <td>A/B</td>
+            <td colspan="2">IW</td>
+            <td>EACNT</td>
+            <td>AD/PW</td>
+            <td>Física</td>
+            <td>AD/PA</td>
+        
+
+        </tr>
+        <TR>
+            
+            <td>Terça</td>
+            <td>A/B</td>
+            <td>Português</td>
+            <td colspan="2">PE</td>
+            <td>Física</td>
+            <td colspan="2">ingles</td>
+        </TR>
+        <TR>
+            
+            <td>Quarta</td>
+            <td>A/B</td>
+            <td colspan="2">Português</td>
+            <td colspan="2">FI/PA</td>
+            <td colspan="2">PA/FI</td>
+        </TR>
+    </table>
+    <h3>exercicio de rowspan e colspan</h3>
+    <table>
+        <tr>
+            <th>Dia da Semana</th>
+        <Th> turma</th>
+        <th>aula 1</th>
+        <th>aula 2</th>
+        <th>aula 3</th>
+        <th>aual 4</th>
+        <th>aula 5</th>
+        <th>aula 6</th>
+        </tr>
+        <tr>
+            <tr>
+
+                <td rowspan="2">DOMINGO</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            
+    
+            </tr>
+
+            <tr>
+                <td>B</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+
+                <td rowspan="2">segunda</td>
+                <td>A</td>
+                <td colspan="2">guilherme</td>
+                <td>vagner</td>
+                <td>rafael</td>
+                <td rowspan="2">Vagner</td>
+                <td>rafael</td>
+    
+            
+    
+            </tr>
+
+            <tr>
+                <td>B</td>
+                <td colspan="2">andricson</td>
+                <td>janete</td>
+                <td>Ronaldo</td>
+                <td>andricson</td>
+            </tr>
+            <tr>
+
+                <td rowspan="2">terça</td>
+                <td>A</td>
+                <td rowspan="2">isabela</td>
+                <td rowspan="2">Vagner</td>
+                <td colspan="2" rowspan="2">jaqueline</td>
+                <td rowspan="2" colspan="2">Celene</td>
+        
+    
+            
+    
+            </tr>
+
+            <tr>
+                <td>B</td>
+    
+            </tr>
+    
+    
+</body>
+</html>
